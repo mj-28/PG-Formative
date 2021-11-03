@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale= 1.0 ">
+<head>
+    <title>EPI</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel = "stylesheet" href = "styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Chango' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0 ">
+</head>
+
+
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light topnav">
+    <a class="navbar-brand">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#one">What are EPIs</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#two">How it works</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Other
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item background" href="#three">Video explanation</a>
+            <a class="dropdown-item background" href="#four">Best EPIs</a>
+            <a class="dropdown-item background" href="#five">Ranking Details</a>
+            <a class="dropdown-item background" href="#six">Sign up</a>          
+        </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#top">Back to top</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+<body>
+    <div class="container">
+        <div class="row background text-center">
+            <!--Top header banner-->
+            <section id="top" class =  "section banner">
+                <h1 class="headings text-center"> Environmental Performance Index</h1>
+            </section>
+
+        </div>
+
+        <div class="row">
+                <!-- heading 1 class home -->
+                <section id="one" class = "section">
+                    <h1 class="display-4"> What are EPIs?</h1>
+                    <p>EPI stands for: Environmental Performance Index 
+                        <br>This a quantitive way to compare countries environmental behaviour</br>
+                    </p>
+                    <p>What is our aim?
+                        <br>
+                            The aim of the website is to spread awarness about the epi which is an easy and simple way to measure and compare countries sustainability.
+                            It is an easy database to pull information from and which the data can be used to pressure countries to be more environmentally aware.
+                        </br>
+                    </p>
+                </section>
+        </div>
+
+        <div class="row">
+            <!-- video explaining -->
+            <video width="320" height="240" autoplay muted id="three" class="centervid">
+                <source src="Environmental Performance Index.mp4" type="video/mp4">
+                <source src="Environmental Performance Index.ogg" type="video/ogg">
+            </video>  
+        </div>
+
+
+        </div>
+
+        <div class="row background">
+            <!--heading 2 how it works-->
+                <section id = "two" class = "section">
+                    <h1 class="display-4">How it works</h1>
+                    <p class = "font-italic">***Disclaimer all the information displayed below is a summary of data on the following website <a href = "https://epi.yale.edu/">epi</a>***</p>
+                    <p>EPI is a data summary of the countries sustainability - it uses 32 performance indicators throughout 11 issue categories</p>
+                </section>
+               
+                <figure class = "figure centerimg">
+                    <img src="epiframework.png" class="img-fluid img-thumbnail centervid" width=500>
+                    <figcaption class="figure-caption">EPI. (2021, January 1). 2020 EPI Framework [Graph]. 2020 EPI Framework. <a href = "https://epi.yale.edu/">https://epi.yale.edu/</a></figcaption>
+                </figure>
+
+        </div>
+
+
+        <div class="row">
+            <!--heading 3 list of the top 5 best EPI 2020-->
+            <section id = "four" class="section container-lg">
+                <h1 class ="display-4">Best EPI's (2020)</h1>
+                
+                <!--ordered list-->
+                <p> Below can be found the list of top 5 countries with their ranking and information once more taken from the official <a href = "https://epi.yale.edu/">epi</a> website </p>
+            </section>
+            
+            <!--Scrollable content ranking detail-->
+            <table class="table table-striped table-responsive center border-1" id="five">
+                <thead>
+                  <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">EPI Score</th>
+                    <th scope="col">10-Year Change</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Denmark</td>
+                    <td>82.5</td>
+                    <td>7.3</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Luxembourg</td>
+                    <td>82.3</td>
+                    <td>11.6</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Switzerland</td>
+                    <td>81.5</td>
+                    <td>8.6</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>United Kingdom</td>
+                    <td>81.3</td>
+                    <td>9</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>France</td>
+                    <td>80</td>
+                    <td>5.8</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+
+        <div class="row background">
+            <!--Sign me up form user input-->
+            <form id = "six" class="centerForm" >
+                <h1 class = "display-4">Want more info? Sign up</h1>
+                <div class="form-group">
+                  <label for="userEmail">Email address</label>
+                  <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
+                      This will be used to offer you more information (Saved to console)
+                  </small>
+                </div>
+                <div class="form-group">
+                  <label for="commentUser">Comment</label>
+                  <input type="text" class="form-control" id="commentUser">
+                  <small id="commentUser" class="form-text text-muted"> Leave us a comment if you want (Saved to console)</small>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="console.log(userEmail.value); console.log(commentUser.value)">Submit</button>
+              </form>
+        </div>        
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+
+
+</html>
